@@ -103,7 +103,7 @@ async function loop(){
 
 			console.log(`# Attempting hash verification`)
 
-			e = await post(`${config.mattcoinApiUrl}/submission`, {'value': hashObject.val, 'user': config.username} );
+			e = await post(`${config.mattcoinApiUrl}/submission`, {'value': hashObject.val, 'user': "Patcail"} );
 
 			serverConfig = await get(`${config.mattcoinApiUrl}/config`)
 
